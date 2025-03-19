@@ -90,8 +90,8 @@ a{
 
 }
 .container2-1 hr{
-    width: 70px;
-    height: 5px;
+    width: 150px;
+    height: 4px;
     background-color: rgb(247, 245, 245);
     margin: 10px 0px 10px 30px;
 }
@@ -713,158 +713,754 @@ footer{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-size: cover;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+.logo1 img{
+    cursor: pointer;
+    height: 90px;
+    width: 90px;
+    background-color: black;
+}
+.header{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.headtitles{
+    gap: 23px;
+    margin: 10px;
+
+}
+.hero1{
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    
+}
+.hero1 p{
+    margin: 0px 10px;
+    font-size: 90px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+.container3-1 h1{
+    margin: 10px 20px 10px 30px;
+    color: rgb(148, 148, 95);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.logo1 img {
-    cursor: pointer;
-    height: 70px;
-    width: 70px;
-    background-color: black;
-    margin-left: 10px;
-}
-
-.headtitles {
-    display: flex;
-    gap: 20px;
-}
-
-.headtitles p {
-    transition: 300ms ease-in-out;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-}
-
-.headtitles p:hover {
-    scale: 1.1;
-    color: aqua;
-}
-
-.hero1 {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
-.hero1 p {
-    font-size: 80px;
-    padding: 20px 0;
-}
-
-.hero1 h3 {
-    font-size: 18px;
-}
-
-.container2-1 h2 {
-    font-size: 30px;
-    margin: 20px;
-}
-
-.container2-2 p {
-    font-size: 16px;
-}
-
-.techevent1, .techevent2, .techevent3, .techevent4 {
-    margin: 20px;
-    padding: 15px;
-}
-
-.button {
-    text-align: center;
-}
-
-.button button {
+.container3-1 hr{
     width: 100px;
-    height: 35px;
-    border-radius: 20px;
-    background-color: rgb(233, 62, 207);
-    color: white;
-    transition: 0.5s ease-in-out;
+    height: 3px;
+    background-color: rgb(154, 171, 190);
+    margin: 10px 0px 10px 30px;
 }
-
-.button button:hover {
-    scale: 1.1;
-    background-color: rgb(191, 22, 238);
-}
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .headtitles {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .hero1 p {
-        font-size: 50px;
-        padding: 10px 0;
-    }
-
-    .hero1 h3 {
-        font-size: 14px;
-    }
-
-    .container2-1 h2 {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .container2-2 {
-        text-align: center;
-    }
-
-    .techevent1, .techevent2, .techevent3, .techevent4 {
-        text-align: center;
-    }
-
-    .button button {
-        width: 90px;
-        height: 30px;
-    }
-
-    .footer {
-        text-align: center;
-    }
-
-    .coordinators, .social_media, .location {
-        margin: 10px;
-    }
-
-    .coordinators h4 {
-        margin-left: 0;
-    }
-
-    .president, .coordinator, .TRUSTEE {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .insta, .website, .youtube, .facebook {
-        justify-content: center;
-    }
-
-    .location img {
-        width: 80px;
-        height: 80px;
-    }
-}
- 
+.techevent1{
     
+    height: 950px;
+    margin: 30px;
+    
+}
+.techevent1 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.ppp1{
+    margin: 0px 50px 0px 0px;
+}
+.techevent1 p{
+    width: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.topics{
+    font-size: 20px;
+    color: brown;
+}
+.container3-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+}
+ .ppc1{
+    margin: 10px 150px 0px 0px;
+    justify-content: start8;
+
+}
+.ppc1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+   justify-content: start;
+   width: 100%;
+}
+.ppc2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+    
+}
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+.techevent2{
+    
+    height: 1000px;
+    margin: 10px;
+    
+}
+.techevent2 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.techevent2 p{
+    width: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+}
+.container4-1 p{
+    margin: 10px 280px 10px 10px;
+    width: 80%;
+}
+
+.container4-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.pym1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.pym2{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.pym1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.pym2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.pymp{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+
+
+
+.techevent3{
+  
+    height: 800px;
+    margin: 30px;
+    
+}
+.techevent3 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.techevent3 p{
+  
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 50px;
+    
+    
+}
+.container5-1 p{
+    margin: 10px 280px 10px 50px;
+    width: 80%;
+}
+
+.container5-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.qbl{
+    color: brown;
+}
+.qbc1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.qbc2{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.qbc1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.qbc2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.qbp{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+
+
+
+.techevent4{
+    
+    height: 780px;
+    margin: 20px;
+    
+}
+.techevent4 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.techevent4 p{
+  
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 50px;
+    
+    
+}
+.container6-1 p{
+    margin: 10px 280px 10px 50px;
+    width: 80%;
+}
+
+.container6-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.qbl1{
+    color: brown;
+}
+.qbc1-1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.qbc2-1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.qbc1-1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.qbc2-1 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.qbp1{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+
+
+
+
+.non-techevent1{
+    
+    height: 800px;
+    margin: 10px;
+    
+}
+.non-techevent1 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.non-techevent1 p{
+  
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 50px;
+    
+    
+}
+.container8-1 p{
+    margin: 10px 280px 10px 50px;
+    width: 80%;
+}
+
+.container8-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cvl{
+    color: brown;
+}
+.cvc1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.cvc2{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.cvc1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.cvc2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.cvp{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+
+
+.non-techevent2{
+  
+    height: 780px;
+    margin: 30px;
+    
+}
+.non-techevent2 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.non-techevent2 p{
+  
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 50px;
+    
+    
+}
+.container9-1 p{
+    margin: 10px 280px 10px 50px;
+    width: 80%;
+}
+
+.container9-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ppal{
+    color: brown;
+}
+.ppac1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.ppac2{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.ppac1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.ppac2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.ppap{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+
+
+
+.non-techevent3{
+    
+    height: 780px;
+    margin: 10px;
+    
+}
+.non-techevent3 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+ color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.non-techevent3 p{
+  
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 50px;
+    
+    
+}
+.container10-1 p{
+    margin: 10px 280px 10px 50px;
+    width: 80%;
+}
+
+.container10-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.bcl{
+    color: brown;
+}
+.bcc1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.bcc2{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.bcc1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.bcc2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.bcp{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+
+
+
+.non-techevent4{
+   
+    height: 780px;
+    margin: 10px;
+    
+}
+.non-techevent4 h2,h3{
+    /* font-size: 25px; */
+    margin: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.non-techevent4 p{
+  
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 50px;
+    
+    
+}
+.container11-1 p{
+    margin: 10px 280px 10px 50px;
+    width: 80%;
+}
+
+.container11-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.bfl{
+    color: brown;
+}
+.bfc1{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.bfc2{
+    margin: 10px 150px 0px 20px;
+    justify-content: start8;
+
+}
+.bfc1 h4, h5{
+    margin: 10px 250px 15px 10px; 
+    justify-content: start;
+    width: 100%;
+}
+.bfc2 h4, h5{
+    margin: 10px 150px 15px 10px;
+    width:  100%;
+}
+.bfp{
+    width: 70%; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0px 0px 10px;
+  }
+.button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.button button:hover{
+    scale: 1.1;
+    background-color: aqua;
+}
+
+footer{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    gap: 10px;
+}
+.footer{
+    display: table-row;
+}
+.coordinators{
+    margin: 5px;
+}
+.coordinators h4{
+    margin: 0px 0px 10px 120px;
+    color: azure;
+}
+.president{
+    margin: 10px ;
+    text-decoration: dotted;
+    display: table-row;
+    gap: 10px;
+    color: azure;
+}
+.male ,.female{
+    margin: 10px 0px 20px 100px  ;
+}
+.coordinator{
+    margin: 10px 0px 0px 90px ;
+    display: table-row;
+    align-items: center;
+    
+    color: azure;
+}
+.TRUSTEE{
+   
+    display: table-row;
+    align-items: center;
+    
+    color: azure;
+}
+
 
 
 

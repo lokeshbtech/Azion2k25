@@ -51,7 +51,7 @@
 }
 a{
     text-decoration: none;
-    color: azure;
+    color: rgb(253, 240, 255);
 }
 .headtitles p:hover{
     scale: 1.1;
@@ -143,7 +143,7 @@ a{
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
-    color: bisque;
+    color: azure;   
 }
 .topics{
     font-size: 20px;
@@ -210,7 +210,7 @@ a{
 }
 .topics{
     font-size: 20px;
-    /* color: brown; */
+     color: brown; 
 }
 .container4-1 p{
     margin: 15px 30px 15px 100px;
@@ -280,7 +280,7 @@ a{
 .qbl{
     margin: 15px 20px;
     font-size: 20px;
-    color: azure;
+    color: brown; 
 }
 .container5-1 p{
     margin: 15px 30px 15px 100px;
@@ -326,7 +326,7 @@ a{
 .qbl1{
     margin: 15px 20px;
     font-size: 20px;
-    color: azure;
+    color: brown; 
 }
 .container6-1 p{
     margin: 15px 30px 15px 100px;
@@ -381,6 +381,9 @@ a{
     color: azure;
 
 }
+.cvl{
+    color: brown; 
+}
 /* .cvc1{
     margin: 15px 20px;
     font-size: 20px;
@@ -427,6 +430,9 @@ a{
     color: azure;
 
 }
+.ppal{
+    color: brown; 
+}
 /* .cvc1{
     margin: 15px 20px;
     font-size: 20px;
@@ -454,7 +460,7 @@ a{
 
 .non-techevent3{
     /* background-color: bisque; */
-    height: 500px;
+    height: 600px;
     margin: 30px;
     
 }
@@ -475,6 +481,9 @@ a{
     cursor: pointer;
 
 }
+.bcl{
+    color: brown; 
+}
 /* .cvc1{
     margin: 15px 20px;
     font-size: 20px;
@@ -482,6 +491,9 @@ a{
 .container10-1 p{
     margin: 15px 30px 15px 100px;
     color: azure;
+}
+.bfl{
+    color: brown; 
 }
 .container10-2{
     display: flex;
@@ -570,7 +582,7 @@ footer{
     width: 100%;
     height: 380px;
     /* background-color: rgb(126, 126, 126); */
-    border: solid black 5px;
+  
     color: white;
 }
 .coordinators{
@@ -758,7 +770,7 @@ footer{
 }
 .techevent1{
     
-    height: 950px;
+    height: 1000px;
     margin: 30px;
     
 }
@@ -827,7 +839,7 @@ footer{
 }
 .techevent2{
     
-    height: 1000px;
+    height: 1200px;
     margin: 10px;
     
 }
@@ -907,7 +919,7 @@ footer{
 
 .techevent3{
   
-    height: 800px;
+    height: 850px;
     margin: 30px;
     
 }
@@ -993,7 +1005,7 @@ footer{
 
 .techevent4{
     
-    height: 780px;
+    height: 850px;
     margin: 20px;
     
 }
@@ -1080,7 +1092,7 @@ footer{
 
 .non-techevent1{
     
-    height: 800px;
+    height: 850px;
     margin: 10px;
     
 }
@@ -1165,7 +1177,7 @@ footer{
 
 .non-techevent2{
   
-    height: 780px;
+    height: 850px;
     margin: 30px;
     
 }
@@ -1251,7 +1263,7 @@ footer{
 
 .non-techevent3{
     
-    height: 780px;
+    height: 1050px;
     margin: 10px;
     
 }
@@ -1337,7 +1349,7 @@ footer{
 
 .non-techevent4{
    
-    height: 780px;
+    height: 840px;
     margin: 10px;
     
 }

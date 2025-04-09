@@ -6,6 +6,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
+<style>
+   #countdown {
+    margin: 0px 0px 20px 400px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background: rgba(255, 0, 255, 0.2); /* Soft magenta glow */
+  padding: 15px 30px;
+  /* border: 2px dashed magenta; */
+  border-radius: 20px;
+  box-shadow: 0 0 20px magenta;
+  text-align: center;
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+#countdown span {
+  margin: 0 5px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 15px magenta;
+  }
+  50% {
+    box-shadow: 0 0 30px magenta;
+  }
+  100% {
+    box-shadow: 0 0 15px magenta;
+  }
+}
+
+  </style>
 <body>
      <video autoplay loop muted plays-inline class="backvideo">
        
@@ -48,6 +81,12 @@
                     <p>Entry Fee = 50/- (per head)</p>
                 </div>
         </div>
+        <div id="countdown">
+            <span id="days"></span> Days 
+            <span id="hours"></span> Hours 
+            <span id="minutes"></span> Minutes 
+            <span id="seconds"></span> Seconds
+          </div>
     </div>
     <div class="hero3">
         <div class="container3-1">
@@ -304,7 +343,7 @@
         </div>
         
     
-</body>
+
     <footer>
         <div id="Contact" class="footer">
             <div class="coordinators">
@@ -392,4 +431,32 @@
         </h1>
         
     </footer>
+</body>
+<script>
+    // Set the date to count down to
+    const countDownDate = new Date("april 17, 2025 00:00:00").getTime();
+  
+    const x = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+  
+      // Time calculations
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+      // Display the result
+      document.getElementById("days").innerText = days;
+      document.getElementById("hours").innerText = hours;
+      document.getElementById("minutes").innerText = minutes;
+      document.getElementById("seconds").innerText = seconds;
+  
+      // If countdown is over
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "Countdown Over!";
+      }
+    }, 1000);
+  </script>
 </html>
